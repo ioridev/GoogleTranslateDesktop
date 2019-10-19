@@ -1,4 +1,7 @@
  # GoogleTranslateDesktop
+ 
+![GoogleTranslateDesktop](https://i.imgur.com/4X86M0r.jpg)
+
 This is a simple Google translation desktop client.
 
 You can quickly use Google Translate by pinning to the taskbar or adding it to the Dock on MacOS.
