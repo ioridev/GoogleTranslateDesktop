@@ -8,7 +8,7 @@ Google Translate is useful because it leaves the browser.
 # Setup
 An executable file for Windows users has been prepared.
 
-https://drive.google.com/open?id=1EF4WBaSbyz7ojTZDLZlNTu76ji3EfRphttps://drive.google.com/file/d/1ykaltDyQ0f54DDm4vSiRPW74luFwcJop/view?usp=sharing
+https://drive.google.com/open?id=1ykaltDyQ0f54DDm4vSiRPW74luFwcJop
 
 Download and run GoogleTranslateDesktop.exe
 
