@@ -1,25 +1,22 @@
-const electron = require('electron');
-const app = electron.app;
-const BrowserWindow = electron.BrowserWindow;
-let win
-let mainWindow = null;
+const {app, BrowserWindow} = require('electron')
 
+let mainWindow
 
+var URL = "https://translate.google.com/"
 
 app.on("ready", function () {
     
-        // mainWindowを作成（windowの大きさや、Kioskモードにするかどうかなどもここで定義できる）
-        mainWindow = new BrowserWindow({ width: 600, height: 600 });
-        // Electronに表示するhtmlを絶対パスで指定（相対パスだと動かない）
-        mainWindow.loadURL('file://' + __dirname + '/index.html');
-    
-
-        //このウインドウが閉じられたときの処理
-        win.on('closed', () => {
-            win = null
-        })
+        
+  mainWindow = new BrowserWindow({
+    width: 800, height: 600
+  });
+        mainWindow.loadURL(URL)
+        
+      
     
 });
+
+
 
 app.on('window-all-closed', () => {
     app.quit()

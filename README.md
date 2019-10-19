@@ -8,23 +8,27 @@ Google Translate is useful because it leaves the browser.
 # Setup
 An executable file for Windows users has been prepared.
 
-https://drive.google.com/open?id=1EF4WBaSbyz7ojTZDLZlNTu76ji3EfRpn
+https://drive.google.com/open?id=1EF4WBaSbyz7ojTZDLZlNTu76ji3EfRphttps://drive.google.com/file/d/1ykaltDyQ0f54DDm4vSiRPW74luFwcJop/view?usp=sharing
 
-Download and run exe
+Download and run GoogleTranslateDesktop.exe
+
+An executable file for macOS users has been prepared.
+
+https://drive.google.com/file/d/1HrSqgZF70Rdk9d_yEnY8U4dNcAR3ZjqU/view?usp=sharing
+
+Download and run GoogleTranslateDesktop
 
 It consists of Electron and can be used cross-platform.
 
-For Mac users
+This is for Linux
 
-$ brew install node
-
-$ npm -g install electron-prebuilt
+$ git clone https://github.com/ioridev/GoogleTranslateDesktop.git
 
 $ cd GoogleTranslateDesktop
 
-$ npm i electron-packager -g
+$ npm install
 
- ❯ npx electron-packager . GoogleTranslateDesktop --darwin --icon=icon.icns
+$ npx electron-packager . GoogleTranslateDesktop --linux --icon=icon.ico
 
 # License
 This software is released under the MIT License, see LICENSE.
