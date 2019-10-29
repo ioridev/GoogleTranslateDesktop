@@ -23,16 +23,12 @@ app.on('window-all-closed', () => {
   })
 
 app.on('window-all-closed', () => {
-    // macOSでは、ユーザが Cmd + Q で明示的に終了するまで、
-    // アプリケーションとそのメニューバーは有効なままにするのが一般的。
     if (process.platform !== 'darwin') {
       app.quit()
     }
 })
   
 app.on('activate', () => {
-    // macOSでは、ユーザがドックアイコンをクリックしたとき、
-    // そのアプリのウインドウが無かったら再作成するのが一般的。
     if (win === null) {
       createWindow()
     }
